@@ -47,7 +47,7 @@
 			},
 
 			formattedDate() {
-				return moment(this.data.starts_at).format('Mo MMM - h:mm A');
+				return moment(this.data.starts_at).format('Do MMM - h:mm A');
 			}
 		},
 	}
